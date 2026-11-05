@@ -1,0 +1,35 @@
+#include <windows.h>
+#include "resource.h"
+#include "version.hpp"
+IDI_STILLBAR ICON "Stillbar.ico"
+
+1 VERSIONINFO
+FILEVERSION STILLBAR_VERSION_NUMBERS
+PRODUCTVERSION STILLBAR_VERSION_NUMBERS
+FILEOS VOS_NT_WINDOWS32
+#ifdef STILLBAR_CORE
+FILETYPE VFT_DLL
+#else
+FILETYPE VFT_APP
+#endif
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Stillbar\0"
+            VALUE "ProductName", "Stillbar\0"
+#ifdef STILLBAR_CORE
+            VALUE "OriginalFilename", "Stillbar.Core.dll\0"
+#else
+            VALUE "OriginalFilename", "Stillbar.exe\0"
+#endif
+            VALUE "FileVersion", STILLBAR_VERSION_STRING "\0"
+            VALUE "ProductVersion", STILLBAR_VERSION_STRING "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

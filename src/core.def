@@ -1,0 +1,4 @@
+LIBRARY Stillbar.Core.dll
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE

@@ -3,7 +3,7 @@
 #include <string_view>
 
 namespace islands::browser {
-inline constexpr std::wstring_view store_extension_id=L"";
+inline constexpr std::wstring_view store_extension_id=L"hpfncegniahlmmggpnbbggikdfngadle";
 inline constexpr std::wstring_view store_listing_url=L"";
 inline bool valid_store_listing(std::wstring_view url){
     constexpr std::wstring_view prefix=L"https://addons.opera.com/en/extensions/details/";

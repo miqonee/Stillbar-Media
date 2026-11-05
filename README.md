@@ -2,6 +2,8 @@
 
 Stillbar adds a customizable media player and optional island-style background to the Windows 11 taskbar. Stillbar Media connects media playing in Yandex Browser to the Windows application.
 
+![Stillbar Media showing a connected media source](screenshots/extension-connected.png)
+
 ## Features
 
 - Playback controls, track information and artwork when provided by the media source.
@@ -11,6 +13,8 @@ Stillbar adds a customizable media player and optional island-style background t
 ## Status
 
 Stillbar 0.7.0 and Stillbar Media 0.4.0 are pre-release software. The earlier browser prototype was checked with YouTube in Yandex Browser; the store release and the new native host identifiers still need end-to-end verification. Availability and controls depend on the website and browser. The published store extension ID and listing URL must be configured in the application before the store installation flow works.
+
+For a review build of Stillbar for Windows and its test browser integration, see the [pre-release package](https://github.com/miqonee/Stillbar-Media/releases/tag/v0.7.0-review.1). This package is not the final store installation experience. The Windows application is required separately from the browser extension.
 
 ## Build the Windows application
 

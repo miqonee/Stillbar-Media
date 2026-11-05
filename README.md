@@ -38,4 +38,4 @@ See [Privacy](PRIVACY.html). Report issues via [GitHub Issues](https://github.co
 
 ## License
 
-Copyright remains with the project owner. No open-source license has been selected yet; public source availability does not grant additional reuse rights.
+Distributed under the [MIT License](LICENSE).
